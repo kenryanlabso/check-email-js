@@ -100,16 +100,16 @@ function checkEmail(email: string, options: CheckEmailOptions = {}): ValidationR
   let isValid = false;
 
   // Validate email address with multiple domains provided in the options
-  domains.forEach(domain => {
+  for (const domain of domains) {
     const [name, extension] = domain.split('.');
     isValid = EMAIL_WITH_DOMAIN_REGEX(name, extension).test(email);
 
     // Stop the loop if a domain matches the email
     if (isValid) {
       isValid = true;
-      return;
+      break;
     }
-  });
+  }
 
   return getResponse(isValid, email);
 };

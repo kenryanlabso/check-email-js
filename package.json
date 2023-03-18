@@ -1,6 +1,6 @@
 {
   "name": "check-email-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An NPM module that validates email addresses with an optional domain restriction.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
