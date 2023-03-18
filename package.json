@@ -1,0 +1,41 @@
+{
+  "name": "check-email-js",
+  "version": "1.0.0",
+  "description": "An NPM module that validates email addresses with an optional domain restriction.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha test.js",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "lib/**/*",
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "npm",
+    "email",
+    "check",
+    "checker",
+    "validate",
+    "validation",
+    "validator",
+    "check-email",
+    "check-email-js",
+    "validate-email",
+    "check email",
+    "check email js",
+    "validate email",
+    "email checker",
+    "email validator"
+  ],
+  "author": "Ken Labso <kenryan.labso19@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  }
+}

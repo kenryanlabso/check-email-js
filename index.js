@@ -1,0 +1,1 @@
+export { checkEmail } from './src';
