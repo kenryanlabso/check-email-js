@@ -1,1 +1,1 @@
-export { checkEmail } from './src';
+export * from './src';

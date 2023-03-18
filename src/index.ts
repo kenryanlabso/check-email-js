@@ -114,4 +114,4 @@ function checkEmail(email: string, options: CheckEmailOptions = {}): ValidationR
   return getResponse(isValid, email);
 };
 
-export { checkEmail };
+export { checkEmail, CheckEmailOptions, ValidationResult };
