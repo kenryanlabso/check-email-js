@@ -1,6 +1,6 @@
 {
   "name": "check-email-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An NPM module that validates email addresses with an optional domain restriction.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,7 +33,9 @@
     "check email js",
     "validate email",
     "email checker",
-    "email validator"
+    "email validator",
+    "validate email with domain",
+    "check email with domain"
   ],
   "author": "Ken Labso <kenryan.labso19@gmail.com>",
   "license": "MIT",

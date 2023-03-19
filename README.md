@@ -2,9 +2,9 @@
 A simple and customizable module that validates email addresses with an optional domain restriction.
 
 ## Installation
-**Using npm**: `$ npm install email-validator-js`
+**Using npm**: `$ npm install check-email-js`
 
-**Using yarn**: `$ yarn add email-validator-js`
+**Using yarn**: `$ yarn add check-email-js`
 
 ## Usage
 ### Importing
